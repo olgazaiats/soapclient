@@ -1,0 +1,26 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building soap-client 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ soap-client ---
+[INFO] soap-client:soap-client:jar:1.0-SNAPSHOT
+[INFO] +- org.testng:testng:jar:6.11:compile
+[INFO] |  +- com.beust:jcommander:jar:1.64:compile
+[INFO] |  \- org.yaml:snakeyaml:jar:1.17:compile
+[INFO] +- org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+[INFO] +- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+[INFO] +- org.slf4j:jcl-over-slf4j:jar:1.7.18:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.18:compile
+[INFO] +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:compile
+[INFO] +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] \- com.lmax:disruptor:jar:3.3.6:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.774 s
+[INFO] Finished at: 2017-09-04T21:01:49+03:00
+[INFO] Final Memory: 14M/309M
+[INFO] ------------------------------------------------------------------------
